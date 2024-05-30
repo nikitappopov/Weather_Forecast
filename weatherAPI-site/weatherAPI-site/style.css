@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+    max-width: 960px;
+    background-image: url("");
+}
+
+div{
+    padding: 5px;
+}
+
+
+li{
+    padding: 15px;
+}
+
+h1{
+    font-size: 50px;
+    color:chocolate;
+    box-shadow: 10px black;
+}
+
+.h{
+    color:darksalmon;
+}
+
+.form{
+    text-align: center;
+    height: fit-content;
+    width: 400px;
+    padding-left: 0px;
+}
+
+
+
+.header{
+    background-color: aquamarine;
+    background: url("backgrounds/header_background2.jpg");
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: italic small-caps bold 16px/2 cursive;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.leftSideBar{
+    background-color: bisque;
+    height: 500px;
+    width: 30%;
+    text-align: left;
+    top: 30%;
+    float: left;
+    margin-right: 10px;
+    font: italic small-caps bold 16px/2 cursive;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.weatherMain{
+    background-color: darkkhaki;
+    height: 500px;
+    width: 65%;
+    float: right;
+    margin-left: 10px; 
+    border: 1px solid;
+    border-radius: 10px;
+    background: url("backgrounds/city.gif");
+}
+
+.footer{
+    background-color: darkcyan;
+    height: 40px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 58%;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.inputCityName {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+
+  .submitCity{
+      border-radius: 5px;
+      width: 70px;
+      height: 28px;
+  }
+
+  .currentDate{
+      float:right;
+      color:azure;
+      font: italic small-caps bold 16px/2 cursive;
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 5px;
+  }

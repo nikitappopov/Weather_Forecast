@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather in your city</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Weather Forecast</h1>
+      <div class="form">
+        <p class="h">Enter City Name</p>
+        <input
+          type="text"
+          class="inputCityName"
+          placeholder="Search"
+          minlength="3"
+          maxlength="15"
+        />
+        <button class="submitCity">Submit</button>
+      </div>
+    </div>
+
+    <div class="leftSideBar">
+      <ul>
+        <li class="city">City:</li>
+        <li class="temp">Temperature:</li>
+        <li class="hum">Humidity:</li>
+        <li class="press">Pressure:</li>
+        <li class="clouds">Clouds:</li>
+        <li class="desc">Description:</li>
+        <li class="wind">Wind:</li>
+      </ul>
+    </div>
+    <div class="weatherMain">
+      <p class="currentDate"></p>
+    </div>
+
+    <div class="footer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
